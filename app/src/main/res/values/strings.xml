@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Где лежит?</string>
+    <string name="home_subtitle">Быстрый поиск вещей дома, в гараже и на даче</string>
+    <string name="search_placeholder">Что ищем?</string>
+    <string name="clear_search_cd">Очистить поиск</string>
+    <string name="scan_qr_button">Сканировать QR</string>
+    <string name="add_item_button">+ Добавить вещь</string>
+    <string name="empty_list_title">Добавьте первую вещь</string>
+    <string name="empty_list_subtitle">Запишите, где лежит нужный предмет — и больше не придётся искать по шкафам</string>
+    <string name="empty_search_title">Ничего не найдено</string>
+    <string name="empty_search_subtitle">Попробуйте другое слово из названия, места хранения или заметки</string>
+    <string name="reset_search_button">Сбросить поиск</string>
+
+    <string name="add_screen_title">Новая вещь</string>
+    <string name="edit_screen_title">Редактировать вещь</string>
+    <string name="back_cd">Назад</string>
+    <string name="field_name_label">Что это? *</string>
+    <string name="field_name_placeholder">Например, гирлянда или паспорт</string>
+    <string name="field_location_label">Где лежит? *</string>
+    <string name="field_location_placeholder">Например, антресоль → синяя коробка</string>
+    <string name="location_suggestions_label">Сохранённые места (нажмите, чтобы выбрать):</string>
+    <string name="field_note_label">Заметка (необязательно)</string>
+    <string name="field_note_placeholder">Например, 10 метров, тёплый белый свет</string>
+    <string name="photo_section_label">Фотография (необязательно)</string>
+    <string name="take_photo_button">Камера</string>
+    <string name="pick_photo_button">Галерея</string>
+    <string name="remove_photo_cd">Удалить фото</string>
+    <string name="remove_photo_button">Убрать фото</string>
+    <string name="save_button">Сохранить</string>
+    <string name="error_name_required">Укажите название вещи</string>
+    <string name="error_location_required">Укажите, где лежит вещь</string>
+    <string name="error_camera_permission">Разрешите доступ к камере, чтобы сделать снимок, или выберите фото из галереи</string>
+    <string name="error_photo_save">Не удалось сохранить фотографию</string>
+    <string name="error_camera_unavailable">Камера недоступна на этом устройстве</string>
+
+    <string name="detail_screen_title">Карточка вещи</string>
+    <string name="detail_location_label">Где лежит (нажмите, чтобы открыть)</string>
+    <string name="detail_note_label">Заметка</string>
+    <string name="detail_updated_label">Обновлено</string>
+    <string name="move_action">Переместить</string>
+    <string name="edit_action">Редактировать</string>
+    <string name="delete_action">Удалить</string>
+    <string name="move_dialog_title">Переместить вещь</string>
+    <string name="move_dialog_new_location_label">Новое место хранения *</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="delete_dialog_title">Удалить вещь?</string>
+    <string name="delete_dialog_message">Запись «%1$s» и её фотография будут удалены без возможности восстановления.</string>
+    <string name="confirm_delete_button">Удалить</string>
+    <string name="item_not_found">Вещь не найдена</string>
+    <string name="item_photo_cd">Фотография вещи %1$s</string>
+    <string name="item_thumbnail_cd">Миниатюра %1$s</string>
+    <string name="item_count_label">Всего вещей: %1$d</string>
+    <string name="search_count_label">Найдено: %1$d</string>
+
+    <!-- Location screen, batch add, move box, QR labels & scanner -->
+    <string name="location_screen_title">Место хранения</string>
+    <string name="location_items_count">Вещей здесь: %1$d</string>
+    <string name="location_empty_title">В этом месте пока пусто</string>
+    <string name="location_empty_subtitle">Добавьте сюда одну или сразу несколько вещей</string>
+    <string name="add_here_button">Добавить сюда</string>
+    <string name="add_multiple_button">Добавить несколько вещей</string>
+    <string name="qr_sticker_button">QR-наклейка</string>
+    <string name="move_box_button">Переместить коробку</string>
+    <string name="rename_location_cd">Переименовать место</string>
+    <string name="rename_location_title">Переименовать место</string>
+    <string name="move_box_dialog_title">Переместить коробку</string>
+    <string name="move_box_dialog_hint">Обновится путь у всех вещей в этом месте, а QR-наклейка останется прежней</string>
+    <string name="move_box_new_path_label">Новое место для коробки *</string>
+    <string name="move_box_new_path_placeholder">Например, Гараж → стеллаж</string>
+    <string name="batch_add_dialog_title">Добавить несколько вещей</string>
+    <string name="batch_add_label">Названия вещей (по одному на строку)</string>
+    <string name="batch_add_placeholder">Гирлянда\nМишура\nЁлочные игрушки</string>
+    <string name="batch_add_error_empty">Введите хотя бы одно название</string>
+    <string name="batch_added_message">Добавлено вещей: %1$d</string>
+
+    <string name="qr_sticker_title">QR-наклейка</string>
+    <string name="qr_sticker_subtitle">Приклейте этикетку на коробку или полку — отсканировав её, вы сразу увидите содержимое</string>
+    <string name="qr_save_png_button">Сохранить PNG</string>
+    <string name="qr_share_button">Поделиться</string>
+    <string name="qr_saved_success">Этикетка сохранена в галерею (Pictures/Где лежит)</string>
+    <string name="qr_save_error">Не удалось сохранить этикетку</string>
+    <string name="qr_share_chooser">Поделиться QR-наклейкой</string>
+    <string name="qr_image_cd">QR-код для места %1$s</string>
+
+    <string name="qr_scanner_title">Сканировать QR</string>
+    <string name="qr_scanner_hint">Наведите камеру на QR-наклейку коробки или выберите фото этикетки</string>
+    <string name="qr_scanner_from_gallery">Выбрать фото с QR</string>
+    <string name="qr_scanner_permission_needed">Для сканирования нужен доступ к камере. Вы также можете выбрать фото наклейки из галереи.</string>
+    <string name="qr_scanner_grant_permission">Разрешить камеру</string>
+    <string name="qr_not_found_error">Место для этой наклейки не найдено</string>
+    <string name="qr_retry_button">Сканировать снова</string>
+
+    <!-- Home tabs, locations catalog, movement history, and PDF QR sheets -->
+    <string name="tab_items">Вещи</string>
+    <string name="tab_locations">Места</string>
+    <string name="search_locations_placeholder">Найти место или коробку</string>
+    <string name="locations_count_label">Всего мест: %1$d</string>
+    <string name="locations_search_count_label">Найдено мест: %1$d</string>
+    <string name="locations_empty_title">Пока нет мест хранения</string>
+    <string name="locations_empty_subtitle">Добавьте вещь или создайте коробку заранее, чтобы распечатать QR-наклейку</string>
+    <string name="add_location_button">+ Новое место</string>
+    <string name="create_location_dialog_title">Новое место хранения</string>
+    <string name="create_location_label">Название места или коробки *</string>
+    <string name="location_empty_badge">Пусто</string>
+    <string name="location_item_count_badge">Вещей: %1$d</string>
+    <string name="delete_empty_location_cd">Удалить пустое место</string>
+    <string name="delete_location_dialog_title">Удалить пустое место?</string>
+    <string name="delete_location_dialog_message">Место «%1$s» не содержит вещей и будет удалено.</string>
+
+    <string name="pdf_sheet_mode_button">Лист QR (PDF)</string>
+    <string name="pdf_select_all_button">Выбрать все</string>
+    <string name="pdf_deselect_all_button">Снять выбор</string>
+    <string name="pdf_selected_count">Выбрано коробок: %1$d</string>
+    <string name="pdf_generate_button">Сформировать PDF (%1$d)</string>
+    <string name="pdf_dialog_title">Печатный лист QR (A4)</string>
+    <string name="pdf_dialog_summary">Коробок: %1$d • Страниц A4: %2$d (по 8 наклеек на лист с линиями отреза)</string>
+    <string name="pdf_save_button">Сохранить PDF</string>
+    <string name="pdf_share_button">Поделиться / Печать</string>
+    <string name="pdf_saved_success">PDF с наклейками сохранён</string>
+    <string name="pdf_save_error">Не удалось создать PDF</string>
+    <string name="pdf_share_chooser">Отправить или распечатать лист QR-наклеек</string>
+
+    <string name="history_section_title">История перемещений</string>
+    <string name="history_created_event">Добавлено в «%1$s»</string>
+    <string name="history_moved_event">Перемещено: «%1$s» → «%2$s»</string>
+    <string name="history_box_renamed_event">Коробка перенесена: «%1$s» → «%2$s»</string>
+
+    <!-- About & privacy dialog -->
+    <string name="about_app_cd">О приложении и конфиденциальность</string>
+    <string name="about_app_title">О приложении</string>
+    <string name="about_app_version">Версия %1$s (сборка %2$d)</string>
+    <string name="about_app_summary">«Где лежит?» работает полностью офлайн без регистрации, рекламы и отправки данных на серверы.</string>
+    <string name="about_privacy_title">Конфиденциальность и данные</string>
+    <string name="about_privacy_body">Все названия вещей, места хранения, история перемещений и фотографии хранятся только в памяти вашего устройства. Экспорт PNG-наклеек и PDF-листов выполняется локально только по вашему выбору.</string>
+    <string name="about_permissions_title">Доступ к камере и фото</string>
+    <string name="about_permissions_body">Камера используется только по вашему нажатию для съёмки вещей и сканирования QR-наклеек. Фотографии из галереи выбираются через системный экран выбора без доступа ко всей библиотеке.</string>
+    <string name="close_button">Закрыть</string>
+</resources>

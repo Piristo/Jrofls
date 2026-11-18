@@ -1,0 +1,6 @@
+{
+  "name": "Где лежит?",
+  "description": "Офлайн-органайзер для быстрого запоминания и поиска мест хранения вещей дома, в гараже или на даче.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
